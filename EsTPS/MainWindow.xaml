@@ -1,0 +1,36 @@
+﻿<Window x:Class="EsTPS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EsTPS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="464" Width="800">
+    <Grid>
+        <ListView x:Name="lstBrani" HorizontalAlignment="Left" Height="227" VerticalAlignment="Top" Width="377" Margin="10,71,0,0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Titolo" Width="125.6" DisplayMemberBinding="{Binding Titolo}"/>
+                    <GridViewColumn Header="Autore" Width="125.6" DisplayMemberBinding="{Binding Autore}"/>
+                    <GridViewColumn Header="Durata" Width="125.6" DisplayMemberBinding="{Binding Durata}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ListView x:Name="lstCd" HorizontalAlignment="Left" Height="227" VerticalAlignment="Top" Width="377" Margin="405,71,0,0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Titolo" Width="188.5" DisplayMemberBinding="{Binding Titolo}"/>
+                    <GridViewColumn Header="Autore" Width="188.5" DisplayMemberBinding="{Binding Autore}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="btnAddSong" Content="Crea un brano" HorizontalAlignment="Left" Height="60" Margin="10,303,0,0" VerticalAlignment="Top" Width="187" Click="btnAddSong_Click" RenderTransformOrigin="0.583,0.367" Background="#FF93F366" FontSize="20"/>
+        <Button x:Name="btnAddCd" Content="Crea un cd" HorizontalAlignment="Left" Height="60" Margin="405,303,0,0" VerticalAlignment="Top" Width="192" Click="btnAddCd_Click" Background="#FF93F366" FontSize="20"/>
+        <Label Content="Brani" HorizontalAlignment="Left" Height="57" Margin="10,9,0,0" VerticalAlignment="Top" Width="377" Foreground="Red" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="CD" HorizontalAlignment="Left" Height="56" Margin="405,10,0,0" VerticalAlignment="Top" Width="377" FontSize="36" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="Red"/>
+        <Button x:Name="btnVediCd" Content="Vedi cd" HorizontalAlignment="Left" Height="60" Margin="602,303,0,0" VerticalAlignment="Top" Width="180" Click="btnVediCd_Click" Background="#FF83EBF5" FontSize="20"/>
+        <Button x:Name="btnDeleteBrano" Content="Elimina brano" HorizontalAlignment="Left" Height="56" Margin="75,368,0,0" VerticalAlignment="Top" Width="252" FontSize="20" Background="#FFEC3F3F"/>
+        <Button x:Name="btnDeleteCd" Content="Elimina cd" HorizontalAlignment="Left" Height="56" Margin="470,368,0,0" VerticalAlignment="Top" Width="252" FontSize="20" Background="#FFEC3F3F"/>
+        <Button x:Name="btnVediBrano" Content="Vedi brano" HorizontalAlignment="Left" Height="60" Margin="202,303,0,0" VerticalAlignment="Top" Width="185" Click="btnVediBrano_Click" FontSize="20" Background="#FF83EBF5"/>
+    </Grid>
+</Window>

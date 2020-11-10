@@ -1,0 +1,19 @@
+﻿<Window x:Class="EsTPS.CreaBrano"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EsTPS"
+        mc:Ignorable="d"
+        Title="CreaBrano" Height="450" Width="459.794">
+    <Grid>
+        <Label Content="Titolo" HorizontalAlignment="Left" Height="63" Margin="30,29,0,0" VerticalAlignment="Top" Width="193" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36"/>
+        <Label Content="Autore" HorizontalAlignment="Left" Height="63" Margin="30,126,0,0" VerticalAlignment="Top" Width="193" FontSize="36" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="Durata in secondi" HorizontalAlignment="Left" Height="63" Margin="30,228,0,0" VerticalAlignment="Top" Width="193" FontSize="24" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Height="63" Margin="228,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" FontSize="24"/>
+        <TextBox x:Name="txtDurata" HorizontalAlignment="Left" Height="63" Margin="228,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" FontSize="24"/>
+        <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Height="63" Margin="228,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" FontSize="24"/>
+        <Button x:Name="btnConferma" Content="Conferma" HorizontalAlignment="Left" Height="82" Margin="123,314,0,0" VerticalAlignment="Top" Width="205" Click="btnConferma_Click" Background="#FF83EBF5" FontSize="36"/>
+
+    </Grid>
+</Window>
