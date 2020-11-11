@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Brano.cs" />
     <Compile Include="VediBrano.xaml.cs">
       <DependentUpon>VediBrano.xaml</DependentUpon>
     </Compile>
