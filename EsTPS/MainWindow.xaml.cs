@@ -68,7 +68,7 @@ namespace EsTPS
         {
             try
             {
-                Brano brano = lstBrani.SelectedItem;
+                Brano brano = (Brano) lstBrani.SelectedItem;
                 VediBrano finestra = new VediBrano(brano);
                 finestra.Show();
             }
