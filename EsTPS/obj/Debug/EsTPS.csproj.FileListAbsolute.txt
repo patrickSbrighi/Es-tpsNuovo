@@ -7,3 +7,12 @@ C:\Users\User\Documents\Es-Tps\EsTPS\obj\Debug\VediCd.g.cs
 C:\Users\User\Documents\Es-Tps\EsTPS\obj\Debug\App.g.cs
 C:\Users\User\Documents\Es-Tps\EsTPS\obj\Debug\EsTPS_MarkupCompile.cache
 C:\Users\User\Documents\Es-Tps\EsTPS\obj\Debug\EsTPS_MarkupCompile.lref
+C:\Users\Tommy\Desktop\ClasseBrano\Es-tpsNuovo\EsTPS\obj\Debug\EsTPS.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\ClasseBrano\Es-tpsNuovo\EsTPS\obj\Debug\CreaBrano.g.cs
+C:\Users\Tommy\Desktop\ClasseBrano\Es-tpsNuovo\EsTPS\obj\Debug\CreaCd.g.cs
+C:\Users\Tommy\Desktop\ClasseBrano\Es-tpsNuovo\EsTPS\obj\Debug\MainWindow.g.cs
+C:\Users\Tommy\Desktop\ClasseBrano\Es-tpsNuovo\EsTPS\obj\Debug\VediBrano.g.cs
+C:\Users\Tommy\Desktop\ClasseBrano\Es-tpsNuovo\EsTPS\obj\Debug\VediCd.g.cs
+C:\Users\Tommy\Desktop\ClasseBrano\Es-tpsNuovo\EsTPS\obj\Debug\App.g.cs
+C:\Users\Tommy\Desktop\ClasseBrano\Es-tpsNuovo\EsTPS\obj\Debug\EsTPS_MarkupCompile.cache
+C:\Users\Tommy\Desktop\ClasseBrano\Es-tpsNuovo\EsTPS\obj\Debug\EsTPS_MarkupCompile.lref
