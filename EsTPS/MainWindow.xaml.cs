@@ -54,7 +54,7 @@ namespace EsTPS
         {
             try
             {
-                CD cd = lstCd.SelectedItem;
+                CD cd = (CD)lstCd.SelectedItem;
                 VediCd finestra = new VediCd(cd);
                 finestra.Show();
             }
